@@ -28,8 +28,8 @@ namespace loginandhomepage
             da.Fill(dt);
             if (dt.Rows.Count == 1)
             {
-                Home F1 = new Home();
-                F1.Show();
+                Home H1 = new Home();
+                H1.Show();
                 this.Hide();
             }
         }
